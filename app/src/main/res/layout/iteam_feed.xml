@@ -135,7 +135,7 @@
                 android:id="@+id/iv_like"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ichand"/>
+                android:src="@drawable/round_favorite_bor"/>
             <TextView
                 android:id="@+id/tv_like"
                 android:layout_width="wrap_content"
@@ -183,12 +183,12 @@
             android:orientation="vertical"
             android:gravity="center">
             <ImageView
-                android:id="@+id/iv_send"
+                android:id="@+id/iv_share"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/sharp_send_24"/>
             <TextView
-                android:id="@+id/tv_send"
+                android:id="@+id/tv_share2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Send"/>

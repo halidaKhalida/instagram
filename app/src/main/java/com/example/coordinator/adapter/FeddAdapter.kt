@@ -15,6 +15,7 @@ class FeddAdapter(private val feeds:ArrayList<Feed>):RecyclerView.Adapter<Recycl
     private val IMAGE=0
     private val NO_IMAGE=1
 
+
     override fun getItemViewType(position: Int): Int {
         return if(feeds[position].imageUrl==null)  NO_IMAGE else IMAGE
 
